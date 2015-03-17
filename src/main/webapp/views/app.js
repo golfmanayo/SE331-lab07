@@ -3,8 +3,17 @@
 // Declare app level module which depends on views, and components
 var labApp = angular.module('labApp', [
     'ngRoute',
-    'productMainController'
+    'productMainController',
+    'languageControllers',
+    'languageServices',
+    'pascalprecht.translate'
 ])
+labApp.config(function($translateProvider){
+    $translateProvider.useUrlLoader('/messageBundle');
+    $translateProvider.useStorage('UrlLanguageStorage');
+    $translateProvider.preferredLanguage('en');
+    $translateProvider.fallbackLanguage('en');
+})
 labApp.config(['$routeProvider',
   function($routeProvider) {
   $routeProvider.
