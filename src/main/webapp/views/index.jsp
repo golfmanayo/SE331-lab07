@@ -42,6 +42,8 @@
                     </a></li>
                     <li><a href="" ng-click="changeLanguage('fr')">FR
                     </a></li>
+                    <li><a href="" ng-click="changeLanguage('th')">TH
+                    </a></li>
                 </ul>
             </div>
         </div>
