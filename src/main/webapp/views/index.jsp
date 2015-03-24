@@ -31,8 +31,8 @@
 </head>
 <body>
 <div class="page-header">
-    <h1>CAMT
-        <small>Software Component Based Software Development</small>
+    <h1>Course Management</br>
+        <small>College of Arts,Media, and Technology</small>
     </h1>
     <div class="navbar navbar-default" ng-controller="languageController">
         <div class="container-fluid">
